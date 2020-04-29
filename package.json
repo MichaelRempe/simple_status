@@ -1,0 +1,26 @@
+{
+  "name": "simple_status",
+  "version": "1.0.0",
+  "description": "Status tracker/task organization",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelRempe/simple_status.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelRempe/simple_status/issues"
+  },
+  "homepage": "https://github.com/MichaelRempe/simple_status#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "path": "0.12.7",
+    "fs": "0.0.1-security"
+  }
+}
