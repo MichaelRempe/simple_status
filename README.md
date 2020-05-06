@@ -47,11 +47,11 @@ Deployment utilizing AWS (EC2 + S3) coming soon
 
 ## Built With
 
-- [JavaScript]() - Development Language
-- [jQuery]() - JavaScript Library
-- [Node](www.nodejs.org) - Backend Sever
-- [Express]() - Web framework
-- [Bootstrap]() - CSS Framework
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Development Language
+- [jQuery](https://jquery.com/) - JavaScript Library
+- [Node](https://nodejs.org/en/) - Backend Sever
+- [Express](https://expressjs.com/) - Web framework
+- [Bootstrap](https://getbootstrap.com/) - CSS Framework
 
 ## Versioning
 
