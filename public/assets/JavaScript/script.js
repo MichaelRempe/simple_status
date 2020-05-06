@@ -1,6 +1,7 @@
 $(document).ready(() => {
   let issueList = $("#issue-list");
   let submit = $("#sub");
+  let message = $("#statusMessage");
 
   //Fetches all Issues tracked by the server
   getIssues = () => {
@@ -88,6 +89,7 @@ $(document).ready(() => {
   renderIssues = (data) => {
     if (data.length != 0) {
       issueList.empty();
+      message.hide();
       let issueListItems = [];
 
       for (let i = 0; i < data.length; i++) {
@@ -135,6 +137,8 @@ $(document).ready(() => {
       issueList.append(issueListItems);
     } else {
       issueList.empty("");
+      message.show();
+
     }
   };
   fetchAndRender = () => {
