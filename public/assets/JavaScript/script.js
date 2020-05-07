@@ -56,7 +56,7 @@ $(document).ready(() => {
           percent = 100;
           break;
         default:
-          percent = 40;
+          percent = 0;
       }
       let newIssue = {
         title: $("#Title").val(),
@@ -104,9 +104,9 @@ $(document).ready(() => {
         text.text(issue.content);
 
         // Buttons
-        let progressBTN = $("<button class='btn btn-success'>");
-        let deleteBTN = $("<button class='btn btn-danger'>");
-        progressBTN.text("Progress Project");
+        let progressBTN = $("<button class='btn progressBTN'>");
+        let deleteBTN = $("<button class='btn deleteBTN'>");
+        progressBTN.text("Advance");
         deleteBTN.text("Delete");
         deleteBTN.click((e) => {
           e.preventDefault();

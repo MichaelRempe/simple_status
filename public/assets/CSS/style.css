@@ -1,0 +1,72 @@
+/* Navbar */
+.navbar{
+    font-family: Roboto;
+    border: 8px solid #343434;
+}
+/* Content Container */
+.container-fluid{
+    padding:2rem;
+
+}
+/* From Container */
+.formTitle{
+    color:#E74C3C;
+}
+label{
+    font-size: large;
+    font-family: Roboto;
+}
+.form-control{
+    color: black;
+    background-color: #F5B7B1;
+}
+#Content{
+    height: 10rem;
+}
+#sub{
+    background-color: #02A8B5;
+}
+/* List Container */
+#statusMessage{
+    color:#E74C3C;
+    font-family: Roboto;
+    font-size: xx-large;
+}
+.listTitle{
+    color:#343434
+}
+.card{
+    text-align: center;
+    margin: 2rem;
+}
+.card-header{
+    font-size: x-large;
+    font-family: Roboto;
+    color: #343434;
+    background-color: #F5B7B1;
+}
+ .card-text{
+    border: 1px solid #e9ecef;
+    padding: 1rem;
+    text-align: left;
+}
+.progress{
+    height:2rem;
+}
+.progress-bar{
+    background-color: #E74C3C;
+    color: white;
+    font-size: medium;
+    height: inherit;
+}
+
+.progressBTN{
+    margin: 6px;
+    color: white;
+    background-color: #02A8B5;
+}
+.deleteBTN{
+    margin: 6px;
+    color: white;
+    background-color: #154B4F;
+}

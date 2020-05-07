@@ -33,10 +33,10 @@ $> cd simple_status
 $> npm install
 ```
 
-Run the application locally
+Run the application locally and navigate to local port 3000
 
 ```javascript
-$> node server start
+$> node server.js
 ```
 
 ## Deployment
